@@ -3,7 +3,7 @@
 
 	require_once "support.php";
 
-	//makes sure an admin is logged in to view this page
+	//makes sure a doctor is logged in to view this page
 	if($_SESSION["type"] != "Doctor"){
 		header('Location: login.php');
 	}

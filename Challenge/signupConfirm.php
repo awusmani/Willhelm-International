@@ -9,6 +9,7 @@
 	$user = $_POST["username"];
 	$password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
+	//inserts account into accounts database
 
 	$query = "insert into accounts values('$user', '$password', '$firstname', '$lastname', 'Patient')";
 

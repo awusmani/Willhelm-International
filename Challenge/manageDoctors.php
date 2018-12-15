@@ -16,6 +16,7 @@
 
 	if(isset($_POST["addDoc"])){
 		//add doctor clicked
+		//inserts doctor into accounts table
 
 		$firstname = $_POST["firstname"];
 		$lastname = $_POST["lastname"];
@@ -36,6 +37,7 @@
 
 	} else if(isset($_POST["delDoc"])){
 		//delete doctor clicked
+		//deletes doctor from accounts table
 
 		if($_POST["doctorslist"] != "Select Doctor"){
 
