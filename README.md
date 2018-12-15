@@ -4,16 +4,16 @@ Willhelm International Appointment System
 Download and Run XAMPP(make sure it is NOT the VM version) from: <br />
 https://www.apachefriends.org/index.html
   
--Locate the XAMPP folder and find htdocs folder <br />
--In htdocs folder place the Challenge folder downloaded from this repository <br />
--Run XAMPP and start the Apache Web Server and MySQL Database <br />
--Open command prompt/Terminal and change directory to XAMPP/xamppfiles/bin/ <br />
--Execute mysql by using the following command:
+1. Locate the XAMPP folder and find htdocs folder <br />
+2. In htdocs folder place the Challenge folder downloaded from this repository <br />
+3. Run XAMPP and start the Apache Web Server and MySQL Database <br />
+4. Open command prompt/Terminal and change directory to XAMPP/xamppfiles/bin/ <br />
+5. Execute mysql by using the following command:
 
 `mysql -p -u root`
 
 
-Enter the following commands in order:
+6. Enter the following commands in order:
 
 -Replace user and password with any user and password you would like to login to the database with
 
@@ -26,7 +26,7 @@ Enter the following commands in order:
 
 
 
-Create the following 4 tables:
+7. Create the following 4 tables:
 
 `create table accounts (username VARCHAR(20) primary key NOT NULL, password VARCHAR(200), firstname VARCHAR(20), lastname VARCHAR(20), type VARCHAR(10));`
 
@@ -39,20 +39,20 @@ Create the following 4 tables:
 
 
 
--Open the DBLogin.php file in the challenge folder in an IDE such as Sublime and change the database username and password to the ones created above <br />
--Save the file
+8. Open the DBLogin.php file in the challenge folder in an IDE such as Sublime and change the database username and password to the ones created above <br />
+9. Save the file
 
 
 
 
--To create Admin account do the following: <br />
--load site by going to http://localhost/Challenge/homepage.php <br />
--sign up normally but make username 'admin' and choose admin password <br />
--once signed up and confirmed, goto sql and execute the following command: <br />
+10. To create Admin account do the following: <br />
+11. load site by going to http://localhost/Challenge/homepage.php <br />
+12. sign up normally but make username 'admin' and choose admin password <br />
+13. once signed up and confirmed, goto sql and execute the following command: <br />
 
 `update accounts set type="Admin" where username="admin";`
 
 
 
--Use the website <br />
+14.Use the website <br />
 -Please note some pages were not finished/implemented
