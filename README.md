@@ -4,7 +4,7 @@ Willhelm International Appointment System
 Download and Run XAMPP(make sure it is NOT the VM version) from:
 https://www.apachefriends.org/index.html
 
-Locate the XAMPP folder and find htdocs folder . 
+Locate the XAMPP folder and find htdocs folder<\br>
 In htdocs folder place the Challenge folder downloaded from this repository . 
 -Run XAMPP and start the Apache Web Server and MySQL Database
 -Open command prompt/Terminal and change directory to XAMPP/xamppfiles/bin/
