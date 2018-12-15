@@ -1,13 +1,13 @@
 # Willhelm-International
 Willhelm International Appointment System
 
-Download and Run XAMPP(make sure it is NOT the VM version) from:
+Download and Run XAMPP(make sure it is NOT the VM version) from: <br />
 https://www.apachefriends.org/index.html
   
-Locate the XAMPP folder and find htdocs folder <br />
-In htdocs folder place the Challenge folder downloaded from this repository
--Run XAMPP and start the Apache Web Server and MySQL Database
--Open command prompt/Terminal and change directory to XAMPP/xamppfiles/bin/
+-Locate the XAMPP folder and find htdocs folder <br />
+-In htdocs folder place the Challenge folder downloaded from this repository <br />
+-Run XAMPP and start the Apache Web Server and MySQL Database <br />
+-Open command prompt/Terminal and change directory to XAMPP/xamppfiles/bin/ <br />
 -Execute mysql by using the following command:
 
 mysql -p -u root
@@ -39,16 +39,16 @@ create table prescriptions(prescID INT AUTO_INCREMENT primary key NOT NULL, user
 
 
 
--Open the DBLogin.php file in the challenge folder in an IDE such as Sublime and change the database username and password to the ones created above
+-Open the DBLogin.php file in the challenge folder in an IDE such as Sublime and change the database username and password to the ones created above <br />
 -Save the file
 
 
 
 
--To create Admin account do the following:
--load site by going to http://localhost/Challenge/homepage.php
--sign up normally but make username 'admin' and choose admin password
--once signed up and confirmed, goto sql and execute the following command:
+-To create Admin account do the following: <br />
+-load site by going to http://localhost/Challenge/homepage.php <br />
+-sign up normally but make username 'admin' and choose admin password <br />
+-once signed up and confirmed, goto sql and execute the following command: <br />
 
 update accounts set type="Admin" where username="admin";
 
