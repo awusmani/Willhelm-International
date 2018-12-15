@@ -54,5 +54,5 @@ https://www.apachefriends.org/index.html
 
 
 
-14.Use the website <br />
+14. Use the website <br />
 -Please note some pages were not finished/implemented
