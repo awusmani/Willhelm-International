@@ -38,7 +38,6 @@ https://www.apachefriends.org/index.html
 
 
 
-
 8. Open the DBLogin.php file in the challenge folder in an IDE such as Sublime and change the database username and password to the ones created above <br />
 9. Save the file
 
