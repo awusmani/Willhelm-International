@@ -46,9 +46,9 @@ https://www.apachefriends.org/index.html
 
 
 10. To create Admin account do the following: <br />
-11. load site by going to http://localhost/Challenge/homepage.php <br />
-12. sign up normally but make username 'admin' and choose admin password <br />
-13. once signed up and confirmed, goto sql and execute the following command: <br />
+11. Load site by going to http://localhost/Challenge/homepage.php <br />
+12. Sign up normally but make username 'admin' and choose admin password <br />
+13. Once signed up and confirmed, goto sql and execute the following command: <br />
 
 `update accounts set type="Admin" where username="admin";`
 
