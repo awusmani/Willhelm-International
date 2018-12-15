@@ -1,0 +1,127 @@
+.main {
+	background-color: white;
+}
+
+#willhelmtitle{
+	display: inline;
+	text-align: left;
+	margin-left: 35%;
+}
+
+#mainheader{
+	display: inline;
+}
+
+#hos1img {
+	display: block;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#loginsignup {
+	display: inline;
+	font-size: 20px;
+	margin-left: 20%;
+}
+
+
+#loginsignup a:link {
+	color: black;
+	text-decoration: none;
+	padding: 0 1em 0 1em;
+}
+
+#loginsignup a:visited {
+	color: black;
+}
+
+.loginForm {
+	margin-left: 46%;
+}
+
+.loginsignupheader{
+	margin-top: 10%;
+	text-align: center;
+}
+
+#manDocImg{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+#manPatImg{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+
+
+#manPatDiv{
+	font-size: 30px;
+	float: right;
+}
+
+#manDocDiv{
+	font-size: 30px;
+	float: left;
+
+}
+
+
+
+#manDocTxt{
+	text-align: center;
+}
+
+#manDocTxt a:link{
+	text-decoration: none;
+}
+
+#manPatTxt{
+	text-align: center;
+}
+
+#manPatTxt a:link{
+	text-decoration: none;
+}
+
+.taskPage{
+}
+
+.logout a:link{
+	text-decoration: none;
+}
+
+#addDoc{
+	float: left;
+	margin-left: 40%;
+}
+
+#delDoc{
+	float: right;
+	margin-right: 30%;
+}
+
+#submitDoc{
+	margin-top: 10%;
+}
+
+#apptDiv{
+	margin-left: 45%;
+	margin-top: 10%;
+}
+
+#taskpagelink{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+#prescMedPage{
+	margin-left: 45%;
+	margin-top: 10%;
+}

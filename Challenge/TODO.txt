@@ -1,0 +1,10 @@
+-Create appointment system for patients
+-create appointment database
+-create medication database
+-allow admin to manage patients information
+-logout functionality
+-comments
+-make username primary key(enforce on sign up)
+-footer to navigate site
+-css/design
+-clean up code and bug test
