@@ -15,7 +15,7 @@ https://www.apachefriends.org/index.html
 
 6. Enter the following commands in order:
 
--Replace user and password with any user and password you would like to login to the database with
+-Replace username and password with any username and password you would like to login to the database with
 
 `GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';`
 
