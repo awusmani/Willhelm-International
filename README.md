@@ -54,4 +54,5 @@ update accounts set type="Admin" where username="admin";
 
 
 
--Use the website 
+-Use the website <br />
+-Please note some pages were not finished/implemented
